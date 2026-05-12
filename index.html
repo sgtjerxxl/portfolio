@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lloyd Jeriel Parayno - Social Media Manager & Content Creator. Helping brands grow through engaging content, reels editing, and visual branding." />
+  <title>Lloyd Jeriel Parayno | Social Media Manager & Content Creator</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       CUSTOM CURSOR
+  ============================================================ -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ============================================================
+       LOADER
+  ============================================================ -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-name">LJP</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Lloyd Jeriel Parayno">LJP</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <!-- <li><a href="#testimonials" class="nav-link">Testimonials</a></li> -->
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-links">
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#portfolio" class="mobile-link">Portfolio</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#testimonials" class="mobile-link">Testimonials</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+     <!-- ============================================================
+         HERO SECTION
+    ============================================================ -->
+    <section class="hero" id="hero">
+      <!-- Animated gradient orbs -->
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+
+      <!-- Grain overlay -->
+      <div class="grain"></div>
+
+      <!-- Grid lines decoration -->
+      <div class="grid-lines"></div>
+
+      <div class="hero-content">
+        <div class="hero-badge reveal-up">
+          <span class="badge-dot"></span>
+          Available for projects
+        </div>
+
+        <h1 class="hero-name reveal-up">
+          <span class="name-line">Lloyd Jeriel</span>
+          <span class="name-line accent-stroke">Parayno</span>
+        </h1>
+
+        <p class="hero-title reveal-up">Social Media Manager &amp; Content Creator</p>
+
+        <p class="hero-sub reveal-up">
+          Helping brands improve their online presence through engaging content,<br class="desktop-br" />
+          short-form video editing, and visual branding.
+        </p>
+
+        <div class="hero-cta reveal-up">
+          <a href="#portfolio" class="btn btn-primary" data-cursor-hover>
+            <span>View Portfolio</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost" data-cursor-hover>Contact Me</a>
+        </div>
+
+       <div class="hero-stats reveal-up">
+
+          <div class="expertise-item">
+            <span class="expertise-title">Reels Editing</span>
+            <span class="expertise-sub">Short-form video storytelling</span>
+          </div>
+
+          <div class="stat-divider"></div>
+
+          <div class="expertise-item">
+            <span class="expertise-title">Visual Branding</span>
+            <span class="expertise-sub">Clean & modern identities</span>
+          </div>
+
+          <div class="stat-divider"></div>
+
+          <div class="expertise-item">
+            <span class="expertise-title">Content Strategy</span>
+            <span class="expertise-sub">Growth-focused creative systems</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT SECTION
+    ============================================================ -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Profile Card -->
+          <div class="about-visual reveal-left">
+            <div class="profile-card">
+              <div class="profile-img-wrap">
+                  <img
+                    src="images/profile.jpg"
+                    alt="Lloyd Jeriel Parayno"
+                    class="profile-img"
+                  >
+
+                  <div class="profile-overlay"></div>
+                  <div class="profile-glow"></div>
+
+                </div>
+              <div class="profile-info">
+                <h3 class="profile-name">Lloyd Jeriel Parayno</h3>
+                <p class="profile-role">Social Media Manager</p>
+                <div class="profile-tags">
+                  <span class="tag">Content Creator</span>
+                  <span class="tag">Reels Editor</span>
+                  <span class="tag">Canva Designer</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating accent cards -->
+            <div class="accent-card accent-card-1">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              <span>Content Strategy</span>
+            </div>
+            <div class="accent-card accent-card-2">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+              <span>Reels Editing</span>
+            </div>
+          </div>
+
+          <!-- About Text -->
+          <div class="about-text reveal-right">
+            <div class="section-label">About Me</div>
+            <h2 class="section-title">Designing content people actually remember</h2>
+            <p class="about-desc">
+              I'm Lloyd Jeriel Parayno, a Social Media Manager and Content Creator based in the Philippines. My journey started with a deep curiosity for digital communication, which naturally evolved into a full creative practice — managing brand identities, crafting scroll-stopping content, and editing cinematic short-form videos.
+            </p>
+            <p class="about-desc">
+              With a background in communication and design, I combine strategic thinking with creative execution. Whether it's a brand's Instagram feed, a TikTok campaign, or a Canva-designed visual identity, I approach every project with precision and intention.
+            </p>
+
+            <div class="strengths-grid">
+              <div class="strength-item" data-cursor-hover>
+                <div class="strength-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                </div>
+                <span>Social Media Strategy</span>
+              </div>
+              <div class="strength-item" data-cursor-hover>
+                <div class="strength-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                </div>
+                <span>Canva Design</span>
+              </div>
+              <div class="strength-item" data-cursor-hover>
+                <div class="strength-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+                </div>
+                <span>Reels Editing</span>
+              </div>
+              <div class="strength-item" data-cursor-hover>
+                <div class="strength-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 1 0 20A14.5 14.5 0 0 1 12 2"/><path d="M2 12h20"/></svg>
+                </div>
+                <span>Visual Branding</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES SECTION
+    ============================================================ -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-label">What I Offer</div>
+          <h2 class="section-title">Services built for modern brands</h2>
+          <p class="section-desc">From content creation to full social media management — every service is crafted to drive real results.</p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card reveal-up" data-cursor-hover>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3 class="service-title">Social Media Management</h3>
+            <p class="service-desc">Full-cycle management of Instagram, TikTok, and Facebook accounts — from content calendars to community engagement and analytics reporting.</p>
+            <div class="service-line"></div>
+            <span class="service-tag">Strategy · Growth · Engagement</span>
+          </article>
+
+          <article class="service-card reveal-up" data-cursor-hover>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+            </div>
+            <h3 class="service-title">Reels &amp; Short-Form Video Editing</h3>
+            <p class="service-desc">Cinematic, scroll-stopping Reels and TikTok edits with pacing, captions, sound design, and transitions tailored to each platform's algorithm.</p>
+            <div class="service-line"></div>
+            <span class="service-tag">CapCut · Premiere Pro · CapCut</span>
+          </article>
+
+          <article class="service-card reveal-up" data-cursor-hover>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3 class="service-title">Canva Graphics &amp; Branding</h3>
+            <p class="service-desc">Professional brand kits, social media templates, carousel posts, stories, and marketing materials designed in Canva Pro with pixel-perfect precision.</p>
+            <div class="service-line"></div>
+            <span class="service-tag">Canva · Photoshop · Brand Identity</span>
+          </article>
+
+          <article class="service-card reveal-up" data-cursor-hover>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <h3 class="service-title">Content Planning &amp; Scheduling</h3>
+            <p class="service-desc">Strategic content calendars, hashtag research, optimal posting schedules, and platform-specific content planning to maximize reach and consistency.</p>
+            <div class="service-line"></div>
+            <span class="service-tag">Meta Suite · Google Workspace · ChatGPT</span>
+          </article>
+
+          <article class="service-card reveal-up" data-cursor-hover>
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3 class="service-title">Content Creation</h3>
+            <p class="service-desc">Creative photo, video, and branded social content tailored for audience engagement, platform growth, and modern digital storytelling.</p>
+            <div class="service-line"></div>
+            <span class="service-tag">Instagram • TikTok • Facebook • YouTube</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PORTFOLIO SECTION — REVISED
+    ============================================================ -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+
+        <!-- Header -->
+        <div class="section-header pf-header reveal-up">
+          <div class="section-label">Portfolio</div>
+          <h2 class="section-title">Selected Works &amp; Creative Projects</h2>
+          <p class="section-desc">A curated collection of short-form video edits, social media content, and branding visuals focused on storytelling, engagement, and modern digital aesthetics.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="portfolio-filters reveal-up">
+          <button class="filter-btn active" data-filter="all" data-cursor-hover>
+            <span class="filter-count" id="count-all">9</span>
+            All Projects
+          </button>
+          <button class="filter-btn" data-filter="reels" data-cursor-hover>
+            <span class="filter-count" id="count-reels">5</span>
+            Reels &amp; Video
+          </button>
+          <button class="filter-btn" data-filter="canva" data-cursor-hover>
+            <span class="filter-count" id="count-canva">4</span>
+            Canva Graphics
+          </button>
+          <button class="filter-btn" data-filter="social" data-cursor-hover>
+            <span class="filter-count" id="count-social">0</span>
+            Social Media
+          </button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="pf-grid" id="portfolioGrid">
+
+          <!-- ─── REELS ITEMS ─────────────────────────────── -->
+
+          <!-- 1. Boxing Reel — FEATURED (wide) -->
+          <article class="pf-card pf-card--wide" data-category="reels" data-id="p1" data-cursor-hover data-thumb="images/boxing-thumbnail.png">
+                    
+            <div class="pf-inner">
+              <!-- Cinematic gradient bg -->
+              <div class="pf-bg pf-bg--boxing">
+                <img src="images/boxing-thumbnail.png" alt="Boxing Storytelling Edit" class="pf-modal-bg--boxing">
+              </div>
+                       
+              <!-- Noise grain -->
+              <div class="pf-grain"></div>
+              <!-- Platform badge -->
+              <div class="pf-platform pf-platform--yt">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.2 31.2 0 0 0 0 12a31.2 31.2 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.2 31.2 0 0 0 24 12a31.2 31.2 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+                YouTube Shorts
+              </div>
+              <!-- Card number -->
+              <div class="pf-num">01</div>
+              <!-- Play icon -->
+              <div class="pf-play-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <!-- Hover overlay -->
+              <div class="pf-overlay">
+                <div class="pf-overlay-inner">
+                  <div class="pf-tags">
+                    <span class="pf-chip">Storytelling</span>
+                    <span class="pf-chip">AI Voiceover</span>
+                    <span class="pf-chip">Sports Editing</span>
+                  </div>
+                  <h4 class="pf-title">Boxing Storytelling Edit</h4>
+                  <p class="pf-desc">Cinematic cuts, emotional pacing, AI voiceover, and subtitles that turn raw boxing footage into motivational short-form content.</p>
+                  <button class="pf-btn" data-id="p1">
+                    View Project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. DailyBread Reel -->
+          <article class="pf-card" data-category="reels" data-id="p2" data-cursor-hover data-thumb="images/daily-bread.png">
+            <div class="pf-inner">
+              <div class="pf-bg pf-bg--daily">
+
+                 <img src="images/daily-bread.png" alt="Daily Bread" class="pf-image">
+              </div>
+              <div class="pf-grain"></div>
+              <div class="pf-platform pf-platform--yt">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.2 31.2 0 0 0 0 12a31.2 31.2 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.2 31.2 0 0 0 24 12a31.2 31.2 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+                YouTube Shorts
+              </div>
+              <div class="pf-num">02</div>
+              <div class="pf-play-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <div class="pf-overlay">
+                <div class="pf-overlay-inner">
+                  <div class="pf-tags">
+                    <span class="pf-chip">Faith Content</span>
+                    <span class="pf-chip">Voiceover</span>
+                    <span class="pf-chip">Short-Form</span>
+                  </div>
+                  <h4 class="pf-title">DailyBread Spiritual Content</h4>
+                  <p class="pf-desc">Emotional pacing, AI voiceover, and visual storytelling crafted for Bible-based short-form content.</p>
+                  <button class="pf-btn" data-id="p2">
+                    View Project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Mic Ready Reel -->
+          <article class="pf-card" data-category="reels" data-id="p3" data-cursor-hover data-thumb="images/micready.png">
+            <div class="pf-inner">
+              <div class="pf-bg pf-bg--mic">
+                 <img src="images/micready.png" alt="Mic Ready" class="pf-image">
+              </div>
+              <div class="pf-grain"></div>
+              <div class="pf-platform pf-platform--yt">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.2 31.2 0 0 0 0 12a31.2 31.2 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.2 31.2 0 0 0 24 12a31.2 31.2 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+                YouTube Shorts
+              </div>
+              <div class="pf-num">03</div>
+              <div class="pf-play-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <div class="pf-overlay">
+                <div class="pf-overlay-inner">
+                  <div class="pf-tags">
+                    <span class="pf-chip">Educational</span>
+                    <span class="pf-chip">Captions</span>
+                    <span class="pf-chip">Reels Editing</span>
+                  </div>
+                  <h4 class="pf-title">Mic Ready Teleprompter Practice</h4>
+                  <p class="pf-desc">Educational short-form content for aspiring flight attendants with clean cuts, captions, and engaging pacing.</p>
+                  <button class="pf-btn" data-id="p3">
+                    View Project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Tom Platz Reel — FEATURED (tall) -->
+          <article class="pf-card pf-card--tall" data-category="reels" data-id="p4" data-cursor-hover data-thumb="images/tom-platz.png">
+            <div class="pf-inner">
+              <div class="pf-bg pf-bg--platz">
+                <img src="images/tom-platz.png" alt="Tom Platz" class="pf-image">
+              </div>
+              <div class="pf-grain"></div>
+              <div class="pf-platform pf-platform--ig">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                Instagram
+              </div>
+              <div class="pf-num">04</div>
+              <div class="pf-play-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <div class="pf-overlay">
+                <div class="pf-overlay-inner">
+                  <div class="pf-tags">
+                    <span class="pf-chip">Fitness Content</span>
+                    <span class="pf-chip">Storytelling</span>
+                    <span class="pf-chip">Gym Aesthetic</span>
+                  </div>
+                  <h4 class="pf-title">Tom Platz Motivational Reel</h4>
+                  <p class="pf-desc">Dark cinematic fitness storytelling inspired by classic bodybuilding — emotional pacing, dramatic cuts, and bold captions.</p>
+                  <button class="pf-btn" data-id="p4">
+                    View Project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Damian Coladilla TikTok -->
+          <article class="pf-card" data-category="reels" data-id="p5" data-cursor-hover data-thumb="images/talk-head.png">
+            <div class="pf-inner">
+              <div class="pf-bg pf-bg--talking">
+                <img src="images/talk-head.png" alt="Damian" class="pf-image">
+              </div>
+              <div class="pf-grain"></div>
+              <div class="pf-platform pf-platform--tt">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.79a4.85 4.85 0 0 1-1.01-.1z"/></svg>
+                TikTok
+              </div>
+              <div class="pf-num">05</div>
+              <div class="pf-play-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <div class="pf-overlay">
+                <div class="pf-overlay-inner">
+                  <div class="pf-tags">
+                    <span class="pf-chip">Talking Head</span>
+                    <span class="pf-chip">TikTok Editing</span>
+                    <span class="pf-chip">Captions</span>
+                  </div>
+                  <h4 class="pf-title">Talking Head Social Clip</h4>
+                  <p class="pf-desc">Polished talking head content with intro animation, captions, and modern social media editing style.</p>
+                  <button class="pf-btn" data-id="p5">
+                    View Project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ─── CANVA ITEMS ─────────────────────────────── -->
+
+          <!-- 6. Iron District Carousel A — FEATURED -->
+          <article class="pf-card pf-card--wide" data-category="canva" data-id="p6" data-cursor-hover data-thumb="images/carousel.png">
+            <div class="pf-inner">
+              <div class="pf-bg pf-bg--iron1">
+                <img src="images/carousel.png" alt="01" class="pf-image">
+              </div>
+              <div class="pf-grain"></div>
+              <div class="pf-platform pf-platform--cv">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                Canva
+              </div>
+              <div class="pf-num">06</div>
+              <div class="pf-design-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              </div>
+              <div class="pf-overlay">
+                <div class="pf-overlay-inner">
+                  <div class="pf-tags">
+                    <span class="pf-chip">Carousel Design</span>
+                    <span class="pf-chip">Fitness Branding</span>
+                    <span class="pf-chip">Canva</span>
+                  </div>
+                  <h4 class="pf-title">Iron District Gym Carousel 01</h4>
+                  <p class="pf-desc">Fitness-themed social media carousel designed for gym branding using modern typography and a strong masculine visual identity.</p>
+                  <button class="pf-btn" data-id="p6">
+                    View Project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. Iron District Carousel B -->
+          <article class="pf-card" data-category="canva" data-id="p7" data-cursor-hover data-thumb="images/carousel-01.png">
+            <div class="pf-inner">
+              <div class="pf-bg pf-bg--iron2">
+                <img src="images/carousel-01.png" alt="01" class="pf-image">
+              </div>
+              <div class="pf-grain"></div>
+              <div class="pf-platform pf-platform--cv">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                Canva
+              </div>
+              <div class="pf-num">07</div>
+              <div class="pf-design-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              </div>
+              <div class="pf-overlay">
+                <div class="pf-overlay-inner">
+                  <div class="pf-tags">
+                    <span class="pf-chip">Gym Content</span>
+                    <span class="pf-chip">Branding</span>
+                  </div>
+                  <h4 class="pf-title">Iron District Gym Carousel 02</h4>
+                  <p class="pf-desc">Modern fitness carousel graphics focused on motivational branding and high audience engagement.</p>
+                  <button class="pf-btn" data-id="p7">
+                    View Project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 8. Iron District Carousel C -->
+          <article class="pf-card" data-category="canva" data-id="p8" data-cursor-hover data-thumb="images/carousel-01.png">
+            <div class="pf-inner">
+              <div class="pf-bg pf-bg--iron3">
+
+                <img src="images/cbum.png" alt="01" class="pf-image">
+              </div>
+              <div class="pf-grain"></div>
+              <div class="pf-platform pf-platform--cv">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                Canva
+              </div>
+              <div class="pf-num">08</div>
+              <div class="pf-design-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              </div>
+              <div class="pf-overlay">
+                <div class="pf-overlay-inner">
+                  <div class="pf-tags">
+                    <span class="pf-chip">Fitness Design</span>
+                    <span class="pf-chip">Social Graphics</span>
+                  </div>
+                  <h4 class="pf-title">Iron District Gym Carousel 03</h4>
+                  <p class="pf-desc">Dark aesthetic fitness carousel with clean layout structure, bold typography, and modern branding visuals.</p>
+                  <button class="pf-btn" data-id="p8">
+                    View Project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- 9. Anytime Fitness Redesign -->
+          <article class="pf-card" data-category="canva" data-id="p9" data-cursor-hover data-thumb="images/redesign.png"> 
+            <div class="pf-inner">
+              <div class="pf-bg pf-bg--anytime">
+                <img src="images/redesign.png" alt="AF" class="pf-image">
+              </div>
+              <div class="pf-grain"></div>
+              <div class="pf-platform pf-platform--cv">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                Canva
+              </div>
+              <div class="pf-num">09</div>
+              <div class="pf-design-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              </div>
+              <!-- Redesign badge -->
+              <div class="pf-redesign-badge">Redesign</div>
+              <div class="pf-overlay">
+                <div class="pf-overlay-inner">
+                  <div class="pf-tags">
+                    <span class="pf-chip">Redesign</span>
+                    <span class="pf-chip">Canva</span>
+                    <span class="pf-chip">Branding</span>
+                  </div>
+                  <h4 class="pf-title">Anytime Fitness Hiring Post Redesign</h4>
+                  <p class="pf-desc">Social media post redesigned with improved visual hierarchy, modern branding, cleaner typography, and a stronger layout.</p>
+                  <button class="pf-btn" data-id="p9">
+                    View Project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /pf-grid -->
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SKILLS SECTION
+    ============================================================ -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-label">Tools &amp; Skills</div>
+          <h2 class="section-title">The toolkit behind the work</h2>
+          <p class="section-desc">Industry-standard tools combined with creative expertise to deliver premium results.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-card reveal-up" data-cursor-hover>
+            <div class="skill-icon skill-canva">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 3c4.97 0 9 4.03 9 9s-4.03 9-9 9-9-4.03-9-9 4.03-9 9-9zm0 2c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z"/></svg>
+            </div>
+            <h4 class="skill-name">Canva Pro</h4>
+            <p class="skill-level">Expert</p>
+            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+
+          <div class="skill-card reveal-up" data-cursor-hover>
+            <div class="skill-icon skill-capcut">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+            <h4 class="skill-name">CapCut</h4>
+            <p class="skill-level">Expert</p>
+            <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+          </div>
+
+          <div class="skill-card reveal-up" data-cursor-hover>
+            <div class="skill-icon skill-premiere">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 15V9l4.5 3L7 15z"/><path d="M13 9h3a2 2 0 0 1 0 4h-3v2"/></svg>
+            </div>
+            <h4 class="skill-name">Premiere Pro</h4>
+            <p class="skill-level">Basic</p>
+            <div class="skill-bar"><div class="skill-fill" data-width="45"></div></div>
+          </div>
+
+          <div class="skill-card reveal-up" data-cursor-hover>
+            <div class="skill-icon skill-photoshop">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 15V9h3a2.5 2.5 0 0 1 0 5H7"/><path d="M15 9c1.5 0 3 1 3 3s-1.5 3-3 3h-1V9h1z"/></svg>
+            </div>
+            <h4 class="skill-name">Adobe Photoshop</h4>
+            <p class="skill-level">Intermediate</p>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+
+          <div class="skill-card reveal-up" data-cursor-hover>
+            <div class="skill-icon skill-meta">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>
+            </div>
+            <h4 class="skill-name">Meta Business Suite</h4>
+            <p class="skill-level">Intermediate</p>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+
+          <div class="skill-card reveal-up" data-cursor-hover>
+            <div class="skill-icon skill-chatgpt">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg>
+            </div>
+            <h4 class="skill-name">ChatGPT / AI Tools</h4>
+            <p class="skill-level">Advanced</p>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+
+          <div class="skill-card reveal-up" data-cursor-hover>
+            <div class="skill-icon skill-google">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/><path d="M12 8v8M8 12h8"/></svg>
+            </div>
+            <h4 class="skill-name">Google Workspace</h4>
+            <p class="skill-level">Expert</p>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TESTIMONIALS SECTION
+    ============================================================ -->
+    <!-- <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-label">Testimonials</div>
+          <h2 class="section-title">Words from clients &amp; collaborators</h2>
+        </div>
+
+        <div class="testimonials-wrap reveal-up">
+          <div class="testimonials-track" id="testimonialsTrack">
+
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+              </div>
+              <p class="testimonial-text">"Lloyd completely transformed our Instagram presence. Our engagement tripled within two months and the Reels he created consistently hit thousands of views. Highly professional and creative."</p>
+              <div class="testimonial-author">
+                <div class="author-avatar">MR</div>
+                <div class="author-info">
+                  <strong>Maria R.</strong>
+                  <span>Owner, Bloom Cafe Manila</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+              </div>
+              <p class="testimonial-text">"The Canva templates Lloyd designed for our real estate listings were stunning. Professional, clean, and on-brand. Our clients immediately noticed the upgrade in our social media quality."</p>
+              <div class="testimonial-author">
+                <div class="author-avatar">JT</div>
+                <div class="author-info">
+                  <strong>James T.</strong>
+                  <span>Real Estate Agent, Metro Manila</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+              </div>
+              <p class="testimonial-text">"Working with Lloyd on our gym's branding was an excellent experience. He understood our vision immediately and delivered a complete brand identity that feels both strong and modern. Exceptional work."</p>
+              <div class="testimonial-author">
+                <div class="author-avatar">AC</div>
+                <div class="author-info">
+                  <strong>Alex C.</strong>
+                  <span>Founder, IronPulse Fitness</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-stars">
+                <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+              </div>
+              <p class="testimonial-text">"Lloyd's content planning and scheduling made our social media effortless to maintain. He's organized, creative, and always delivers ahead of deadline. I'd recommend him to any business owner."</p>
+              <div class="testimonial-author">
+                <div class="author-avatar">SC</div>
+                <div class="author-info">
+                  <strong>Sofia C.</strong>
+                  <span>Lifestyle Brand Owner</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Navigation -
+          <div class="testimonials-nav">
+            <button class="testi-btn" id="testiPrev" aria-label="Previous testimonial">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <div class="testi-dots" id="testiDots"></div>
+            <button class="testi-btn" id="testiNext" aria-label="Next testimonial">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section> -->
+     
+    <!-- ============================================================
+         CONTACT SECTION
+    ============================================================ -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <div class="section-label">Get In Touch</div>
+          <h2 class="section-title">Let's build something great</h2>
+          <p class="section-desc">Have a project in mind? I'd love to hear about it. Send me a message and let's make it happen.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Contact Info -->
+          <div class="contact-info reveal-left">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:lloydjeriel@email.com" class="contact-value">lloydjeriel@email.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/lloydjerielparayno/" target="_blank" class="contact-value">linkedin.com/in/lloydjerielparayno</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Facebook</span>
+                <a href="#" class="contact-value">facebook.com/lloydjeriel</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Instagram</span>
+                <a href="#" class="contact-value">@lloydjeriel</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrap reveal-right">
+            <form class="contact-form" id="contactForm">
+
+                  <input 
+                    type="hidden" 
+                    name="access_key" 
+                    value="d8519024-a1b5-4acf-94d1-9fb64b9e1265"
+                  >
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="Your full name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="project_subject" class="form-input" placeholder="Project inquiry" required />
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell me about your project..." rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full" data-cursor-hover>
+                <span>Send Message</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+              <p class="form-success" id="formSuccess">Message sent! I'll get back to you soon.</p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">LJP</a>
+          <p class="footer-tagline">Social Media Manager &amp; Content Creator crafting premium digital experiences.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <h5 class="footer-nav-title">Navigation</h5>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav">
+          <h5 class="footer-nav-title">Services</h5>
+          <ul class="footer-links">
+            <li><a href="#services">Social Media Management</a></li>
+            <li><a href="#services">Reels Editing</a></li>
+            <li><a href="#services">Canva Design</a></li>
+            <li><a href="#services">Content Planning</a></li>
+            <li><a href="#services">Web Design</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2025 Lloyd Jeriel Parayno. All rights reserved.</p>
+        <p class="footer-made">Designed &amp; Built with precision</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       PORTFOLIO MODAL — UPGRADED
+  ============================================================ -->
+  <div class="modal-overlay" id="modalOverlay">
+  <div class="modal pf-modal" id="modal">
+    <button class="modal-close" id="modalClose" aria-label="Close modal">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="pf-modal-preview" id="modalPreview">
+      <!-- Layer 1: Gradient background (always present) -->
+      <div class="pf-modal-bg" id="modalBg"></div>
+      <!-- Layer 2: Real thumbnail image (cinematic, darkened) -->
+      <img class="pf-modal-thumb" id="modalThumb" src="" alt="" aria-hidden="true">
+      <!-- Layer 3: Cinematic dark overlay -->
+      <div class="pf-modal-cinematic-overlay"></div>
+      <!-- Layer 4: Bottom vignette gradient -->
+      <div class="pf-modal-vignette"></div>
+      <!-- Layer 5: Grain texture -->
+      <div class="pf-grain"></div>
+      <!-- Layer 6: UI elements -->
+      <div class="pf-modal-platform" id="modalPlatform"></div>
+      <div class="pf-modal-num" id="modalNum"></div>
+      <div class="pf-modal-centericon" id="modalIcon"></div>
+    </div>
+    <div class="pf-modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
